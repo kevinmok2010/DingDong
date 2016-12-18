@@ -1,0 +1,82 @@
+PODS:
+  - AFNetworking (3.1.0):
+    - AFNetworking/NSURLSession (= 3.1.0)
+    - AFNetworking/Reachability (= 3.1.0)
+    - AFNetworking/Security (= 3.1.0)
+    - AFNetworking/Serialization (= 3.1.0)
+    - AFNetworking/UIKit (= 3.1.0)
+  - AFNetworking/NSURLSession (3.1.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.1.0)
+  - AFNetworking/Security (3.1.0)
+  - AFNetworking/Serialization (3.1.0)
+  - AFNetworking/UIKit (3.1.0):
+    - AFNetworking/NSURLSession
+  - Bolts (1.8.4):
+    - Bolts/AppLinks (= 1.8.4)
+    - Bolts/Tasks (= 1.8.4)
+  - Bolts/AppLinks (1.8.4):
+    - Bolts/Tasks
+  - Bolts/Tasks (1.8.4)
+  - DejalActivityView (1.2)
+  - FBSDKCoreKit (4.16.0):
+    - Bolts (~> 1.7)
+  - FBSDKLoginKit (4.16.1):
+    - FBSDKCoreKit
+  - FBSDKShareKit (4.16.1):
+    - FBSDKCoreKit
+  - GoogleMaps (2.1.0):
+    - GoogleMaps/Maps (= 2.1.0)
+  - GoogleMaps/Base (2.1.0)
+  - GoogleMaps/Maps (2.1.0):
+    - GoogleMaps/Base (= 2.1.0)
+  - GooglePlacePicker (2.1.0):
+    - GoogleMaps (= 2.1.0)
+    - GooglePlaces (= 2.1.0)
+  - GooglePlaces (2.1.0):
+    - GoogleMaps/Base (= 2.1.0)
+  - JFBCrypt (0.1)
+  - mailcore2-ios (0.6.4)
+  - MBProgressHUD (1.0.0)
+  - OMGHTTPURLRQ/UserAgent (3.2.0)
+  - TDOAuth (1.1.3):
+    - OMGHTTPURLRQ/UserAgent
+  - YelpAPI (1.1.0):
+    - TDOAuth (~> 1.1)
+
+DEPENDENCIES:
+  - AFNetworking (~> 3.0)
+  - DejalActivityView
+  - FBSDKCoreKit
+  - FBSDKLoginKit
+  - FBSDKShareKit
+  - GoogleMaps
+  - GooglePlacePicker
+  - GooglePlaces
+  - JFBCrypt
+  - mailcore2-ios
+  - MBProgressHUD (~> 1.0.0)
+  - YelpAPI
+
+SPEC CHECKSUMS:
+  AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
+  Bolts: 8a7995239dbe724f9cba2248b766d48b7ebdd322
+  DejalActivityView: 94d85757728a02cbb32445fcf6dfba17dc1e7393
+  FBSDKCoreKit: 7a6baaed4a2b2a244ba253346713bdbc74df135b
+  FBSDKLoginKit: 469a56cebe2e1ed62b1621d0b155970fd6aac2d8
+  FBSDKShareKit: 53af0239b5bd2ebf191f32f75991245a208cc982
+  GoogleMaps: 06589b9a38097bce0cd6e90f0fd9b5e4b4a9344c
+  GooglePlacePicker: a2228b447d10008bcb765a6a081f415e8599e5d4
+  GooglePlaces: 16e96266483b8010e9f275399403647978523c86
+  JFBCrypt: b5333bb2ff2bc80dc370ac332dfbcefc41720dee
+  mailcore2-ios: 3ff0be2fa553d4da9c11d39c11d51863c768f24f
+  MBProgressHUD: 4890f671c94e8a0f3cf959aa731e9de2f036d71a
+  OMGHTTPURLRQ: 1e54807cb7d5dbb506926e53498e1e9ac5720c79
+  TDOAuth: 82474f45874759a094034b9454c75153062f6771
+  YelpAPI: 66b689666a3cd40d5acc3ae27f3787cd559e9f7d
+
+PODFILE CHECKSUM: 6dfc6a152d1d7d6ad686c6d717d08ee47f500faa
+
+COCOAPODS: 1.0.1
